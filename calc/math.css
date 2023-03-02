@@ -1,0 +1,58 @@
+:root {
+  --desktop: 300px;
+  --mobile: 100px;
+}
+body {
+  background-color: gray;
+  height: 100vh;
+  display: flex;
+  gap: 10px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  background-color: blue;
+  width: calc(100% - var(--desktop) - 20px);
+  right: 0;
+}
+.left {
+  background-color: black;
+  height: 100%;
+  width: var(--desktop);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.right {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.right-child {
+  width: calc(100% - var(--desktop) - 10px);
+  background-color: white;
+  height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .left {
+    width: var(--mobile);
+  }
+  .right-child {
+    width: calc(100% - var(--mobile) - 10px);
+  }
+}
+
+.left-child {
+  background: white;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  overflow-y: auto;
+  padding: 10px;
+  box-sizing: content-box;
+}

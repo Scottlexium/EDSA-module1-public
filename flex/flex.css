@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+  background-color: red;
+  height: auto;
+  gap: 10px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexed {
+  border: solid 40px blue;
+  height: 400px;
+  font-size: 100px;
+  text-align: center;
+  max-width: 400px;
+  width: 400px;
+  min-width: 400px;
+}
+.flex1 {
+  flex-grow: 1;
+}
+.flex2 {
+  flex-grow: 1;
+}
+.flex3 {
+  flex-grow: 1;
+}
+.flex4 {
+  flex-grow: 1;
+}
+
+.shrinked {
+  /* width: 2000px; */
+  background-color: yellow;
+  height: 300px;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.shrink {
+  background: red;
+  flex-basis: 90%;
+}
+.sh1 {
+  flex-shrink: 5;
+}
+
+:root {
+  --primary: red;
+  --secondary: green;
+  --max: 10px;
+}
+
+.p1 {
+  color: var(--primary);
+}
+
+.p2 {
+  color: var(--secondary);
+}

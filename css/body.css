@@ -1,0 +1,90 @@
+.main_body {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.recent__search_container {
+  display: grid;
+  gap: 20px;
+}
+
+.location_details_flexed {
+  height: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+.ctx {
+  font-size: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 1px #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ctx_top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.ctx_bottom {
+  display: flex;
+  justify-content: center;
+}
+.ctx_top img {
+  width: 117.35px;
+  height: 24px;
+}
+.ctx_top h2 {
+  font-size: 24px;
+  color: #1262ae;
+}
+.ctx_bottom p {
+  font-size: 20px;
+}
+
+.trip_icon {
+  display: grid;
+  place-items: center;
+  gap: 8px;
+}
+.trip_icon_wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  align-content: center;
+  height: 300px;
+  justify-content: space-around;
+}
+.Hotel img,
+.Attractions img,
+.Cutlery img,
+.Train img,
+.Taxi img,
+.Movies img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.Hotel img {
+  background-color: #f9668d;
+}
+.Attractions img {
+  background-color: #ff9b53;
+}
+.Cutlery img {
+  background-color: #36da76;
+}
+.Train img {
+  background-color: #fdbf00;
+}
+.Taxi img {
+  background-color: #4dabff;
+}
+.Movies img {
+  background-color: #79ca00;
+}

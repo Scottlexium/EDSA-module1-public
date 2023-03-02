@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+}
+.flex_box {
+  display: flex;
+  width: 50%;
+  height: 70vh;
+  border: solid 2px black;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.box {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+fieldset {
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+}
+
+select {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  height: 100%;
+}

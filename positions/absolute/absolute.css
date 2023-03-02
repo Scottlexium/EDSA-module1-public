@@ -1,0 +1,38 @@
+.container {
+  width: 500px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.139);
+  position: relative;
+  padding: 10px;
+  margin: 50px;
+}
+.search_icon {
+  background-color: rgb(139, 139, 139);
+  position: absolute;
+  right: 0;
+  top: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.two {
+  z-index: 3;
+}
+.one {
+  margin: 20px;
+  background-color: red;
+  z-index: 100000;
+}
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+input {
+  height: 60px;
+  width: 100%;
+  margin-top: 100px;
+}

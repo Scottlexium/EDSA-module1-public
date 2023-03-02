@@ -1,0 +1,74 @@
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:wght@100;300;400;500;700&display=swap"); */
+
+@font-face {
+  font-family: "my-poppins";
+  src: url("/fonts/Poppins/Poppins-Medium.ttf");
+}
+* {
+  font-family: "my-poppins", "Poppins", sans-serif;
+  font-style: 500;
+}
+.column {
+  background-color: rgba(255, 0, 0, 0.181);
+  width: 25%;
+  padding: 20px;
+  height: auto;
+}
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    flex: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+.box {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+
+.box2 {
+  background-color: blue;
+  width: 400px;
+  height: 200px;
+  clear: right;
+}
+
+/* .user-one {
+  background-color: orange;
+  height: 200px;
+  width: 200px;
+}
+.user-two {
+  background-color: orange;
+  height: 200px;
+  width: 200px;
+} */
+
+[class|="user"] {
+  background-color: orange;
+  height: 200px;
+  width: 200px;
+}
+[class^="i"] {
+  background-color: magenta;
+  height: 200px;
+  width: 200px;
+}
+
+input[type="text"] {
+  display: none;
+}
